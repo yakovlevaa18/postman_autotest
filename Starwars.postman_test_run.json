@@ -1,0 +1,147 @@
+{
+	"id": "1d9ece56-3bb2-4c68-8b6d-0cbb54b5f100",
+	"name": "Starwars",
+	"timestamp": "2022-04-27T19:17:23.000Z",
+	"collection_id": "20705902-e819f416-6ba0-4c00-983e-3a784d5d52d2",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 2,
+	"totalFail": 7,
+	"results": [
+		{
+			"id": "7f6b9256-667a-4701-9168-315313fea7b0",
+			"name": "Запрос по персонажу ",
+			"url": "https://swapi.dev/api/?people",
+			"time": 265,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": false,
+				"Status code is 200": true,
+				"Body matches string": false
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				265
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": false,
+					"Status code is 200": true,
+					"Body matches string": false
+				}
+			]
+		},
+		{
+			"id": "4354a0fb-bd81-4b78-8fe5-abb0ac668de1",
+			"name": "Запрос по планете",
+			"url": "https://swapi.dev/api/planets/7/",
+			"time": 1443,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Your test name": false,
+				"Successful POST request": false,
+				"Schema is valid": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Successful POST request": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Schema is valid": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				1443
+			],
+			"allTests": [
+				{
+					"Your test name": false,
+					"Successful POST request": false,
+					"Schema is valid": false
+				}
+			]
+		},
+		{
+			"id": "b4f3c9aa-4fad-48b4-8f80-64547e6917e0",
+			"name": "Запрос по кораблю ",
+			"url": "https://swapi.dev/api/starships/5/",
+			"time": 1503,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": false,
+				"Your test name": false,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1503
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": false,
+					"Your test name": false,
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3211,
+	"collection": {
+		"requests": [
+			{
+				"id": "7f6b9256-667a-4701-9168-315313fea7b0",
+				"method": "GET"
+			},
+			{
+				"id": "4354a0fb-bd81-4b78-8fe5-abb0ac668de1",
+				"method": "GET"
+			},
+			{
+				"id": "b4f3c9aa-4fad-48b4-8f80-64547e6917e0",
+				"method": "GET"
+			}
+		]
+	}
+}
